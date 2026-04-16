@@ -1,1 +1,3 @@
 alert icmp $EXTERNAL_NET any -> $HOME_NET 10.10.1.11 (msg:"ICMP-INFO PING"; icode:0; itype:8; reference:arachnids,135; reference:cve,1999-0265; classtype:bad-unknown; sid:472; rev:7;)
+
+UbKVX2UCb8R0mRN7sIGmaZAwgqliOVvtYQqP9WVM1jA
